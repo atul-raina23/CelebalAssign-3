@@ -1,0 +1,14 @@
+
+{
+  "name": "nodejs-async-refactor",
+  "version": "1.0.0",
+  "description": "Project to refactor async callbacks to Promises and Async/Await",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callbackVersion.js",
+    "promise": "node src/promiseVersion.js",
+    "async": "node src/asyncAwaitVersion.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
